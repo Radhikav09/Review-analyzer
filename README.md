@@ -148,7 +148,7 @@ Product-Review-Sentiment-Analysis/
 
 **Radhika Varma**
 
-GitHub: *Add your GitHub profile link here*
+GitHub: (https://github.com/Radhikav09)
 
 ---
 
