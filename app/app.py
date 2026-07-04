@@ -6,6 +6,12 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
+st.set_page_config(
+    page_title="AI Product Review Sentiment Analyzer",
+    page_icon="🛍",
+    layout="wide"
+)
+
 # -------------------------------
 # Load Saved Model and Vectorizer
 # -------------------------------
