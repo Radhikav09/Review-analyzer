@@ -9,8 +9,12 @@ from nltk.stem import PorterStemmer
 # Load Saved Model and Vectorizer
 # -------------------------------
 
-model = joblib.load("models/sentiment_model.pkl")
-vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model = joblib.load(BASE_DIR / "models" / "sentiment_model.pkl")
+vectorizer = joblib.load(BASE_DIR / "models" / "tfidf_vectorizer.pkl")
 
 # -------------------------------
 # Text Preprocessing
